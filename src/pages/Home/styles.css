@@ -1,0 +1,45 @@
+.conteudo {
+    position: relative;
+
+    display: flex;
+    align-items: self-start;
+    justify-content: flex-end;
+}
+
+.background {
+    position: absolute;
+    height: 100vh;
+    top: 25px;
+    left: -234px;
+    opacity: 0.05;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.info {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #FFFF;
+}
+
+input {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    min-width: 260px;
+    width: 70%;
+    margin-right: 12px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+    color:#999999;
+    background: #2D333B;
+    font-size: 18px;
+    padding: 10px;
+}

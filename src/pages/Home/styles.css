@@ -32,6 +32,7 @@ input {
     background: transparent;
     font-size: 18px;
     padding: 10px;
+    color: #FFFFFF;
 }
 
 button {
@@ -61,6 +62,7 @@ button {
     color: #999999;
     font-size: 24px;
     margin: 0;
+    font-family: "Roboto";
 }
 
 .perfil span {
@@ -68,10 +70,20 @@ button {
     color: #999999;
     font-size: 12px;
     margin: 0;
+    font-family: "Roboto";
 }
 
 .perfil p {
     color: #999999;
     font-size: 12px;
     margin: 20px 0 0 0;
+    font-family: "Roboto";
+}
+
+.repositorio {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 26px;
+    text-align: center;
+    margin: 23px 0;
 }

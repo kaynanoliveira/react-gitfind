@@ -43,6 +43,16 @@ button {
     background: #2D333B;
     font-size: 18px;
     padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background: #444C56;        /* muda a cor de fundo */
+    color: #ffffff;             /* muda a cor do texto */
+    border-color: #ffffff;      /* muda a cor da borda */
+    transform: scale(1.05);     /* aumenta levemente o botão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* adiciona sombra */
 }
 
 .perfil {

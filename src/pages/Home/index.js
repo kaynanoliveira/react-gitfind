@@ -44,7 +44,7 @@ function App() {
               <img src={currentUser.avatar_url} className="profile" alt="imagem de perfil"/>
               <div>
                 <h3>{currentUser.name}</h3>
-                <span>{currentUser.login}</span>
+                <span>@{currentUser.login}</span>
                 <p>{currentUser.bio}</p>
               </div>
             </div>
